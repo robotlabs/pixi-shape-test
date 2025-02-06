@@ -40,7 +40,7 @@ export default class GUIView {
 
       this.pane
         .addBinding(this.params, "rotation", {
-          min: 0.1,
+          min: 0,
           max: 15,
           step: 0.1,
         })

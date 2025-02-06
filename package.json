@@ -15,7 +15,6 @@
     "vite-plugin-glsl": "^1.0.0"
   },
   "dependencies": {
-    "async-preloader": "^8.0.0",
     "gsap": "^3.12.7",
     "pixi.js": "^8.7.3",
     "stats.js": "^0.17.0",

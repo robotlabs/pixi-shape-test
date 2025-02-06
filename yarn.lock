@@ -240,14 +240,6 @@
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.10.tgz#a1337ca426aa61cef9fe15b5b28e340a72f6fa99"
   integrity sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==
 
-async-preloader@^8.0.0:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/async-preloader/-/async-preloader-8.0.4.tgz#d19e1106428a0b3c44a0252737ddc9ad6b8c3ced"
-  integrity sha512-7RXL6f/aFQ4/sVZP3WXW9VroKb2QmDEHfJPRyZXllDXp349IoPrFqHvc+L1u4+sk9Asr6U1WA2xVRYTbqwtJxw==
-  dependencies:
-    fontfaceobserver-es "^3.3.3"
-    tslib "^2.6.3"
-
 braces@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.3.tgz#490332f40919452272d55a8480adc0c441358789"
@@ -316,11 +308,6 @@ fill-range@^7.1.1:
   integrity sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==
   dependencies:
     to-regex-range "^5.0.1"
-
-fontfaceobserver-es@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/fontfaceobserver-es/-/fontfaceobserver-es-3.3.3.tgz#b8fa6b774592c53d4ff98b031f97f15f9bdc4d83"
-  integrity sha512-1EyweL1ryy0koZWk80Kr0UgWq9KhbOl2cD6x1O8BtFu0gNqCWIXK1lVFSUb37DI5FMn1m86I6X7N1JRBy8wVfw==
 
 fsevents@~2.3.2:
   version "2.3.3"
@@ -454,27 +441,12 @@ stats.js@^0.17.0:
   resolved "https://registry.yarnpkg.com/stats.js/-/stats.js-0.17.0.tgz#b1c3dc46d94498b578b7fd3985b81ace7131cc7d"
   integrity sha512-hNKz8phvYLPEcRkeG1rsGmV5ChMjKDAWU7/OJJdDErPBNChQXxCo3WZurGpnWc6gZhAzEPFad1aVgyOANH1sMw==
 
-three@^0.167.1:
-  version "0.167.1"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.167.1.tgz#3fe4ba2b0a03fd662afe4977a56803d955b61689"
-  integrity sha512-gYTLJA/UQip6J/tJvl91YYqlZF47+D/kxiWrbTon35ZHlXEN0VOo+Qke2walF1/x92v55H6enomymg4Dak52kw==
-
 to-regex-range@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
-
-tslib@^2.6.3:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
-  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
-
-tweakpane-plugin-chromatic@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/tweakpane-plugin-chromatic/-/tweakpane-plugin-chromatic-0.0.3.tgz#559a35c8bc1a5de38aef9fc486ed08c6b77cc237"
-  integrity sha512-l7qaqqJ0ramp+XKWyXNMhB3STVUctlT5DsZ9hhmrocK9OLtE43o896AOKk59kF/Q77pQdCpXy+N4rSRytyn/KA==
 
 tweakpane@^4.0.5:
   version "4.0.5"

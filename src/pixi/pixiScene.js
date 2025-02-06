@@ -46,6 +46,8 @@ export default class pixiScene {
     //** add container to pixi stage */
     this.pixiApp.stage.addChild(this.shapeContainer);
 
+    this.divLabel = document.getElementsByClassName("shape-name")[0];
+
     //** and let's start */
     this.renderShapes();
   }
@@ -61,8 +63,10 @@ export default class pixiScene {
   //** render shapes. only exception for roundedRect, because we can't use a .poly  */
   renderShapes() {
     const shapeData = this.app.shapes[this.iterShapes];
+
+    this.divLabel.innerHTML = shapeData.name;
     switch (shapeData.name) {
-      case "roundedRect":
+      case "rounded rectangle":
         this.drawRoundedRect(shapeData.points);
 
         this.graphics.rotation = this.rotation;

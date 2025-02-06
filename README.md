@@ -10,5 +10,7 @@ Pixi shapes test
 main code is in pixiScene, where we have the logic, render shapes and keyboard / gui interaction.
 
 index.js load shapes data.
-app organize the main logic
-pixiScene create pixi ( i leave )
+
+app.js organize the main logic
+
+pixiScene.js create pixi ( i leave )
